@@ -22,12 +22,12 @@ git clone https://huggingface.co/lmsys/vicuna-13b-delta-v0
 git clone https://huggingface.co/decapoda-research/llama-13b-hf
 ```
 
-
+```
 >> !!!!!! Note
 >> 下载下来之后需要把 llama-13b-hf/tokenizer_config.json文件中的"tokenizer_class": "LLaMATokenizer" 改成 "tokenizer_class": "LlamaTokenizer".
 >> 不然在转换权重的时候会遇到这个错误
 >> ValueError: Tokenizer class LLaMATokenizer does not exist or is not currently imported.
-
+```
 
 ```python
 git clone https://huggingface.co/lmsys/vicuna-7b-delta-v0
