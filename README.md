@@ -60,6 +60,7 @@ https://github.com/Vision-CAIR/MiniGPT-4/issues/96 #没解决
 |  Checkpoint Aligned with Vicuna 13B   | Checkpoint Aligned with Vicuna 7B  |
 |  ----  | ----  |
 | [下载](https://drive.google.com/file/d/1a4zLvaiDBr-36pasffmgpvH5P7CKmpze/view)  | [下载](https://drive.google.com/file/d/1RY9jV0dyqLX-o38LrumkKRh6Jtaop58R/view) |
+
 然后，在评估配置文件中设置预训练权重的路径 
 在[eval_configs/minigpt4_eval.yaml](eval_configs/minigpt4_eval.yaml#L10)第11行。
 
