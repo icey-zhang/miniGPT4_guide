@@ -57,7 +57,9 @@ https://github.com/Vision-CAIR/MiniGPT-4/issues/96 #没解决
 # 准备预训练MiniGPT-4权重
  
 要使用我们的预训练模型，请下载预训练权重
-(这里)(https://drive.google.com/file/d/1a4zLvaiDBr-36pasffmgpvH5P7CKmpze/view?usp=share_link)。 
+|  Checkpoint Aligned with Vicuna 13B   | Checkpoint Aligned with Vicuna 7B  |
+|  ----  | ----  |
+| [下载](https://drive.google.com/file/d/1a4zLvaiDBr-36pasffmgpvH5P7CKmpze/view)  | [下载](https://drive.google.com/file/d/1RY9jV0dyqLX-o38LrumkKRh6Jtaop58R/view) |
 然后，在评估配置文件中设置预训练权重的路径 
 在[eval_configs/minigpt4_eval.yaml](eval_configs/minigpt4_eval.yaml#L10)第11行。
 
@@ -74,3 +76,7 @@ Running on local URL:  http://127.0.0.1:7860
 Running on public URL: https://ed51bb7ea87d38e79b.gradio.live
 ```
 使用local的这个网址打开网页 在左侧上传完图片后在右边对话框输入指令
+
+# 最后的效果
+<img width="1469" alt="image" src="https://user-images.githubusercontent.com/54712081/233894269-57934d43-d593-41b4-9678-2b5bb9c3d0f9.png">
+
