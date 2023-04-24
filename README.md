@@ -13,8 +13,7 @@ conda env create -f environment.yml
 conda activate minigpt4
 ```
 
-# 下载权重
-#提供一下百度云链接
+# 下载vicuna权重
 #建议直接打开网页链接下载下载 git下载有点慢 下载13的成功转换了权重
 ```python
 git lfs install #用于下载大文件 可以不用也能下载
@@ -52,6 +51,15 @@ python -m fastchat.model.apply_delta --base llama-13b-hf/  --target vicuna  --de
 https://github.com/Vision-CAIR/MiniGPT-4/issues/96 #没解决
 ```
 
+然后，在模型配置文件中设置权重路径为vicuna
+[这里](minigpt4/configs/models/minigpt4.yaml#L16) at Line 16 
+ 
+# 准备预训练MiniGPT-4权重
+ 
+要使用我们的预训练模型，请下载预训练权重
+(这里)(https://drive.google.com/file/d/1a4zLvaiDBr-36pasffmgpvH5P7CKmpze/view?usp=share_link)。 
+然后，在评估配置文件中设置预训练权重的路径 
+在[eval_configs/minigpt4_eval.yaml](eval_configs/minigpt4_eval.yaml#L10)第11行。
 
 # 运行demo
 ```python
