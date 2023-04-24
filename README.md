@@ -52,7 +52,7 @@ https://github.com/Vision-CAIR/MiniGPT-4/issues/96 #没解决
 ```
 
 然后，在模型配置文件中设置权重路径为vicuna
-[这里](minigpt4/configs/models/minigpt4.yaml#L16) at Line 16 
+[这里](minigpt4/configs/models/minigpt4.yaml#L16) 16行 
  
 # 准备预训练MiniGPT-4权重
  
