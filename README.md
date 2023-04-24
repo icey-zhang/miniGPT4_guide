@@ -23,10 +23,10 @@ git clone https://huggingface.co/decapoda-research/llama-13b-hf
 ```
 
 ```markdown
-Note
-下载下来之后需要把 llama-13b-hf/tokenizer_config.json文件中的"tokenizer_class": "LLaMATokenizer" 改成 "tokenizer_class": "LlamaTokenizer".
-不然在转换权重的时候会遇到这个错误
-ValueError: Tokenizer class LLaMATokenizer does not exist or is not currently imported.
+>> Note
+>> 下载下来之后需要把 llama-13b-hf/tokenizer_config.json文件中的"tokenizer_class": "LLaMATokenizer" 改成 "tokenizer_class": "LlamaTokenizer".
+>> 不然在转换权重的时候会遇到这个错误
+>> ValueError: Tokenizer class LLaMATokenizer does not exist or is not currently imported.
 ```
 
 ```python
@@ -40,12 +40,12 @@ pip install git+https://github.com/lm-sys/FastChat.git@v0.1.10 #下载不下来
 pip install fastchat
 ```
 
-#成功
+## 成功
 ```python
 python -m fastchat.model.apply_delta --base llama-13b-hf/  --target vicuna  --delta vicuna-13b-delta-v0/
 ```
 
-#失败
+## 失败
 ```python
 python -m fastchat.model.apply_delta --base llama-13b-hf/  --target vicuna  --delta vicuna-13b-delta-v0/
 #其中有一个小错误
