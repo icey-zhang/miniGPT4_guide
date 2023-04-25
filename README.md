@@ -46,7 +46,7 @@ python -m fastchat.model.apply_delta --base llama-13b-hf/  --target vicuna  --de
 
 ## 失败
 ```python
-python -m fastchat.model.apply_delta --base llama-13b-hf/  --target vicuna  --delta vicuna-13b-delta-v0/
+python -m fastchat.model.apply_delta --base llama-7b-hf/  --target vicuna_7b  --delta vicuna-7b-delta-v0/
 #其中有一个小错误
 https://github.com/Vision-CAIR/MiniGPT-4/issues/96 #没解决
 ```
